@@ -1,0 +1,1520 @@
+{
+    "portrait_info": {
+        "horizontal_inset": 3,
+        "vertical_inset": 6,
+        "height": 216,
+        "width": 375
+    },
+    "landscape_info": {
+        "horizontal_inset": 2.5,
+        "vertical_inset": 4,
+        "height": 162,
+        "width": 667
+    },
+    "languages": [
+                  {
+                  "name": "georgian",
+                  "alphabet": [
+                               {
+                               "index": 0,
+                               "positioning_portrait": {
+                               "type": "auto",
+                               "value": 1
+                               },
+                               "positioning_landscape": {
+                               "type": "auto",
+                               "value": 1
+                               },
+                               "keys": [
+                                        {
+                                        "index": 0,
+                                        "style": "dark",
+                                        "can_popup": false,
+                                        "can_highlight": false,
+                                        "shape": "none",
+                                        "type": "none",
+                                        "input": "",
+                                        "shift_input": "",
+                                        "input_options": [],
+                                        "positioning_portrait": {
+                                        "type": "fixed",
+                                        "value": 0
+                                        },
+                                        "positioning_landscape": {
+                                        "type": "auto",
+                                        "value": 0.105
+                                        }
+                                        },
+                                        {
+                                        "index": 1,
+                                        "style": "light",
+                                        "can_popup": true,
+                                        "can_highlight": true,
+                                        "shape": "none",
+                                        "type": "none",
+                                        "input": "ქ",
+                                        "shift_input": "ქ",
+                                        "input_options": [],
+                                        "positioning_portrait": {
+                                        "type": "auto",
+                                        "value": 0.1
+                                        },
+                                        "positioning_landscape": {
+                                        "type": "auto",
+                                        "value": 0.079
+                                        }
+                                        },
+                                        {
+                                        "index": 2,
+                                        "style": "light",
+                                        "can_popup": true,
+                                        "can_highlight": true,
+                                        "shape": "none",
+                                        "type": "none",
+                                        "input": "წ",
+                                        "shift_input": "ჭ",
+                                        "input_options": [],
+                                        "positioning_portrait": {
+                                        "type": "auto",
+                                        "value": 0.1
+                                        },
+                                        "positioning_landscape": {
+                                        "type": "auto",
+                                        "value": 0.079
+                                        }
+                                        },
+                                        {
+                                        "index": 3,
+                                        "style": "light",
+                                        "can_popup": true,
+                                        "can_highlight": true,
+                                        "shape": "none",
+                                        "type": "none",
+                                        "input": "ე",
+                                        "shift_input": "ე",
+                                        "input_options": [],
+                                        "positioning_portrait": {
+                                        "type": "auto",
+                                        "value": 0.1
+                                        },
+                                        "positioning_landscape": {
+                                        "type": "auto",
+                                        "value": 0.079
+                                        }
+                                        },
+                                        {
+                                        "index": 4,
+                                        "style": "light",
+                                        "can_popup": true,
+                                        "can_highlight": true,
+                                        "shape": "none",
+                                        "type": "none",
+                                        "input": "რ",
+                                        "shift_input": "ღ",
+                                        "input_options": [],
+                                        "positioning_portrait": {
+                                        "type": "auto",
+                                        "value": 0.1
+                                        },
+                                        "positioning_landscape": {
+                                        "type": "auto",
+                                        "value": 0.079
+                                        }
+                                        },
+                                        {
+                                        "index": 5,
+                                        "style": "light",
+                                        "can_popup": true,
+                                        "can_highlight": true,
+                                        "shape": "none",
+                                        "type": "none",
+                                        "input": "ტ",
+                                        "shift_input": "თ",
+                                        "input_options": [],
+                                        "positioning_portrait": {
+                                        "type": "auto",
+                                        "value": 0.1
+                                        },
+                                        "positioning_landscape": {
+                                        "type": "auto",
+                                        "value": 0.079
+                                        }
+                                        },
+                                        {
+                                        "index": 6,
+                                        "style": "light",
+                                        "can_popup": true,
+                                        "can_highlight": true,
+                                        "shape": "none",
+                                        "type": "none",
+                                        "input": "ყ",
+                                        "shift_input": "ყ",
+                                        "input_options": [],
+                                        "positioning_portrait": {
+                                        "type": "auto",
+                                        "value": 0.1
+                                        },
+                                        "positioning_landscape": {
+                                        "type": "auto",
+                                        "value": 0.079
+                                        }
+                                        },
+                                        {
+                                        "index": 7,
+                                        "style": "light",
+                                        "can_popup": true,
+                                        "can_highlight": true,
+                                        "shape": "none",
+                                        "type": "none",
+                                        "input": "უ",
+                                        "shift_input": "უ",
+                                        "input_options": [],
+                                        "positioning_portrait": {
+                                        "type": "auto",
+                                        "value": 0.1
+                                        },
+                                        "positioning_landscape": {
+                                        "type": "auto",
+                                        "value": 0.079
+                                        }
+                                        },
+                                        {
+                                        "index": 8,
+                                        "style": "light",
+                                        "can_popup": true,
+                                        "can_highlight": true,
+                                        "shape": "none",
+                                        "type": "none",
+                                        "input": "ი",
+                                        "shift_input": "ი",
+                                        "input_options": [],
+                                        "positioning_portrait": {
+                                        "type": "auto",
+                                        "value": 0.1
+                                        },
+                                        "positioning_landscape": {
+                                        "type": "auto",
+                                        "value": 0.079
+                                        }
+                                        },
+                                        {
+                                        "index": 9,
+                                        "style": "light",
+                                        "can_popup": true,
+                                        "can_highlight": true,
+                                        "shape": "none",
+                                        "type": "none",
+                                        "input": "ო",
+                                        "shift_input": "ო",
+                                        "input_options": [],
+                                        "positioning_portrait": {
+                                        "type": "auto",
+                                        "value": 0.1
+                                        },
+                                        "positioning_landscape": {
+                                        "type": "auto",
+                                        "value": 0.079
+                                        }
+                                        },
+                                        {
+                                        "index": 10,
+                                        "style": "light",
+                                        "can_popup": true,
+                                        "can_highlight": true,
+                                        "shape": "none",
+                                        "type": "none",
+                                        "input": "პ",
+                                        "shift_input": "პ",
+                                        "input_options": [],
+                                        "positioning_portrait": {
+                                        "type": "auto",
+                                        "value": 0.1
+                                        },
+                                        "positioning_landscape": {
+                                        "type": "auto",
+                                        "value": 0.079
+                                        }
+                                        },
+                                        {
+                                        "index": 11,
+                                        "style": "dark",
+                                        "can_popup": false,
+                                        "can_highlight": false,
+                                        "shape": "none",
+                                        "type": "none",
+                                        "input": "",
+                                        "shift_input": "",
+                                        "input_options": [],
+                                        "positioning_portrait": {
+                                        "type": "fixed",
+                                        "value": 0
+                                        },
+                                        "positioning_landscape": {
+                                        "type": "auto",
+                                        "value": 0.105
+                                        }
+                                        }
+                                        ]
+                               },
+                               {
+                               "index": 1,
+                               "positioning_portrait": {
+                               "type": "auto",
+                               "value": 1
+                               },
+                               "positioning_landscape": {
+                               "type": "auto",
+                               "value": 1
+                               },
+                               "keys": [
+                                        {
+                                        "index": 0,
+                                        "style": "dark",
+                                        "can_popup": false,
+                                        "can_highlight": false,
+                                        "shape": "none",
+                                        "type": "none",
+                                        "input": "",
+                                        "shift_input": "",
+                                        "input_options": [],
+                                        "positioning_portrait": {
+                                        "type": "fixed",
+                                        "value": 0
+                                        },
+                                        "positioning_landscape": {
+                                        "type": "auto",
+                                        "value": 0.105
+                                        }
+                                        },
+                                        {
+                                        "index": 1,
+                                        "style": "light",
+                                        "can_popup": true,
+                                        "can_highlight": true,
+                                        "shape": "none",
+                                        "type": "none",
+                                        "input": "ა",
+                                        "shift_input": "ა",
+                                        "input_options": [],
+                                        "positioning_portrait": {
+                                        "type": "auto",
+                                        "value": 0.1,
+                                        "empty_left": 0.5
+                                        },
+                                        "positioning_landscape": {
+                                        "type": "auto",
+                                        "value": 0.079,
+                                        "empty_left": 0.5
+                                        }
+                                        },
+                                        {
+                                        "index": 2,
+                                        "style": "light",
+                                        "can_popup": true,
+                                        "can_highlight": true,
+                                        "shape": "none",
+                                        "type": "none",
+                                        "input": "ს",
+                                        "shift_input": "შ",
+                                        "input_options": [],
+                                        "positioning_portrait": {
+                                        "type": "auto",
+                                        "value": 0.1
+                                        },
+                                        "positioning_landscape": {
+                                        "type": "auto",
+                                        "value": 0.079
+                                        }
+                                        },
+                                        {
+                                        "index": 3,
+                                        "style": "light",
+                                        "can_popup": true,
+                                        "can_highlight": true,
+                                        "shape": "none",
+                                        "type": "none",
+                                        "input": "დ",
+                                        "shift_input": "დ",
+                                        "input_options": [],
+                                        "positioning_portrait": {
+                                        "type": "auto",
+                                        "value": 0.1
+                                        },
+                                        "positioning_landscape": {
+                                        "type": "auto",
+                                        "value": 0.079
+                                        }
+                                        },
+                                        {
+                                        "index": 4,
+                                        "style": "light",
+                                        "can_popup": true,
+                                        "can_highlight": true,
+                                        "shape": "none",
+                                        "type": "none",
+                                        "input": "ფ",
+                                        "shift_input": "ფ",
+                                        "input_options": [],
+                                        "positioning_portrait": {
+                                        "type": "auto",
+                                        "value": 0.1
+                                        },
+                                        "positioning_landscape": {
+                                        "type": "auto",
+                                        "value": 0.079
+                                        }
+                                        },
+                                        {
+                                        "index": 5,
+                                        "style": "light",
+                                        "can_popup": true,
+                                        "can_highlight": true,
+                                        "shape": "none",
+                                        "type": "none",
+                                        "input": "გ",
+                                        "shift_input": "გ",
+                                        "input_options": [],
+                                        "positioning_portrait": {
+                                        "type": "auto",
+                                        "value": 0.1
+                                        },
+                                        "positioning_landscape": {
+                                        "type": "auto",
+                                        "value": 0.079
+                                        }
+                                        },
+                                        {
+                                        "index": 6,
+                                        "style": "light",
+                                        "can_popup": true,
+                                        "can_highlight": true,
+                                        "shape": "none",
+                                        "type": "none",
+                                        "input": "ჰ",
+                                        "shift_input": "ჰ",
+                                        "input_options": [],
+                                        "positioning_portrait": {
+                                        "type": "auto",
+                                        "value": 0.1
+                                        },
+                                        "positioning_landscape": {
+                                        "type": "auto",
+                                        "value": 0.079
+                                        }
+                                        },
+                                        {
+                                        "index": 7,
+                                        "style": "light",
+                                        "can_popup": true,
+                                        "can_highlight": true,
+                                        "shape": "none",
+                                        "type": "none",
+                                        "input": "ჯ",
+                                        "shift_input": "ჟ",
+                                        "input_options": [],
+                                        "positioning_portrait": {
+                                        "type": "auto",
+                                        "value": 0.1
+                                        },
+                                        "positioning_landscape": {
+                                        "type": "auto",
+                                        "value": 0.079
+                                        }
+                                        },
+                                        {
+                                        "index": 8,
+                                        "style": "light",
+                                        "can_popup": true,
+                                        "can_highlight": true,
+                                        "shape": "none",
+                                        "type": "none",
+                                        "input": "კ",
+                                        "shift_input": "კ",
+                                        "input_options": [],
+                                        "positioning_portrait": {
+                                        "type": "auto",
+                                        "value": 0.1
+                                        },
+                                        "positioning_landscape": {
+                                        "type": "auto",
+                                        "value": 0.079
+                                        }
+                                        },
+                                        {
+                                        "index": 9,
+                                        "style": "light",
+                                        "can_popup": true,
+                                        "can_highlight": true,
+                                        "shape": "none",
+                                        "type": "none",
+                                        "input": "ლ",
+                                        "shift_input": "ლ",
+                                        "input_options": [],
+                                        "positioning_portrait": {
+                                        "type": "auto",
+                                        "value": 0.1,
+                                        "empty_right": 0.5
+                                        },
+                                        "positioning_landscape": {
+                                        "type": "auto",
+                                        "value": 0.079,
+                                        "empty_right": 0.5
+                                        }
+                                        },
+                                        {
+                                        "index": 10,
+                                        "style": "dark",
+                                        "can_popup": false,
+                                        "can_highlight": false,
+                                        "shape": "none",
+                                        "type": "none",
+                                        "input": "",
+                                        "shift_input": "",
+                                        "input_options": [],
+                                        "positioning_portrait": {
+                                        "type": "fixed",
+                                        "value": 0
+                                        },
+                                        "positioning_landscape": {
+                                        "type": "auto",
+                                        "value": 0.105
+                                        }
+                                        }
+                                        ]
+                               },
+                               {
+                               "index": 2,
+                               "positioning_portrait": {
+                               "type": "auto",
+                               "value": 1
+                               },
+                               "positioning_landscape": {
+                               "type": "auto",
+                               "value": 1
+                               },
+                               "keys": [
+                                        {
+                                        "index": 0,
+                                        "style": "dark",
+                                        "can_popup": false,
+                                        "can_highlight": false,
+                                        "shape": "none",
+                                        "type": "none",
+                                        "input": "",
+                                        "shift_input": "",
+                                        "input_options": [],
+                                        "positioning_portrait": {
+                                        "type": "fixed",
+                                        "value": 0
+                                        },
+                                        "positioning_landscape": {
+                                        "type": "auto",
+                                        "value": 0.105
+                                        }
+                                        },
+                                        {
+                                        "index": 1,
+                                        "style": "dark",
+                                        "can_popup": false,
+                                        "can_highlight": true,
+                                        "shape": "shift",
+                                        "type": "shift",
+                                        "input": "",
+                                        "shift_input": "",
+                                        "input_options": [],
+                                        "positioning_portrait": {
+                                        "type": "fixed",
+                                        "value": 48,
+                                        "empty_right": 0.25
+                                        },
+                                        "positioning_landscape": {
+                                        "type": "fixed",
+                                        "value": 68,
+                                        "empty_right": 0.25
+                                        }
+                                        },
+                                        {
+                                        "index": 2,
+                                        "style": "light",
+                                        "can_popup": true,
+                                        "can_highlight": true,
+                                        "shape": "none",
+                                        "type": "none",
+                                        "input": "ზ",
+                                        "shift_input": "ძ",
+                                        "input_options": [],
+                                        "positioning_portrait": {
+                                        "type": "auto",
+                                        "value": 0.1,
+                                        "empty_left": 0.25
+                                        },
+                                        "positioning_landscape": {
+                                        "type": "auto",
+                                        "value": 0.079,
+                                        "empty_left": 0.25
+                                        }
+                                        },
+                                        {
+                                        "index": 3,
+                                        "style": "light",
+                                        "can_popup": true,
+                                        "can_highlight": true,
+                                        "shape": "none",
+                                        "type": "none",
+                                        "input": "ხ",
+                                        "shift_input": "ხ",
+                                        "input_options": [],
+                                        "positioning_portrait": {
+                                        "type": "auto",
+                                        "value": 0.1
+                                        },
+                                        "positioning_landscape": {
+                                        "type": "auto",
+                                        "value": 0.079
+                                        }
+                                        },
+                                        {
+                                        "index": 4,
+                                        "style": "light",
+                                        "can_popup": true,
+                                        "can_highlight": true,
+                                        "shape": "none",
+                                        "type": "none",
+                                        "input": "ც",
+                                        "shift_input": "ჩ",
+                                        "input_options": [],
+                                        "positioning_portrait": {
+                                        "type": "auto",
+                                        "value": 0.1
+                                        },
+                                        "positioning_landscape": {
+                                        "type": "auto",
+                                        "value": 0.079
+                                        }
+                                        },
+                                        {
+                                        "index": 5,
+                                        "style": "light",
+                                        "can_popup": true,
+                                        "can_highlight": true,
+                                        "shape": "none",
+                                        "type": "none",
+                                        "input": "ვ",
+                                        "shift_input": "ვ",
+                                        "input_options": [],
+                                        "positioning_portrait": {
+                                        "type": "auto",
+                                        "value": 0.1
+                                        },
+                                        "positioning_landscape": {
+                                        "type": "auto",
+                                        "value": 0.079
+                                        }
+                                        },
+                                        {
+                                        "index": 6,
+                                        "style": "light",
+                                        "can_popup": true,
+                                        "can_highlight": true,
+                                        "shape": "none",
+                                        "type": "none",
+                                        "input": "ბ",
+                                        "shift_input": "ბ",
+                                        "input_options": [],
+                                        "positioning_portrait": {
+                                        "type": "auto",
+                                        "value": 0.1
+                                        },
+                                        "positioning_landscape": {
+                                        "type": "auto",
+                                        "value": 0.079
+                                        }
+                                        },
+                                        {
+                                        "index": 7,
+                                        "style": "light",
+                                        "can_popup": true,
+                                        "can_highlight": true,
+                                        "shape": "none",
+                                        "type": "none",
+                                        "input": "ნ",
+                                        "shift_input": "ნ",
+                                        "input_options": [],
+                                        "positioning_portrait": {
+                                        "type": "auto",
+                                        "value": 0.1
+                                        },
+                                        "positioning_landscape": {
+                                        "type": "auto",
+                                        "value": 0.079
+                                        }
+                                        },
+                                        {
+                                        "index": 8,
+                                        "style": "light",
+                                        "can_popup": true,
+                                        "can_highlight": true,
+                                        "shape": "none",
+                                        "type": "none",
+                                        "input": "მ",
+                                        "shift_input": "მ",
+                                        "input_options": [],
+                                        "positioning_portrait": {
+                                        "type": "auto",
+                                        "value": 0.1,
+                                        "empty_right": 0.25
+                                        },
+                                        "positioning_landscape": {
+                                        "type": "auto",
+                                        "value": 0.079,
+                                        "empty_right": 0.25
+                                        }
+                                        },
+                                        {
+                                        "index": 9,
+                                        "style": "dark",
+                                        "can_popup": false,
+                                        "can_highlight": true,
+                                        "shape": "delete",
+                                        "type": "delete",
+                                        "input": "",
+                                        "shift_input": "",
+                                        "input_options": [],
+                                        "positioning_portrait": {
+                                        "type": "fixed",
+                                        "value": 48,
+                                        "empty_left": 0.25
+                                        },
+                                        "positioning_landscape": {
+                                        "type": "fixed",
+                                        "value": 68,
+                                        "empty_left": 0.25
+                                        }
+                                        },
+                                        {
+                                        "index": 10,
+                                        "style": "dark",
+                                        "can_popup": false,
+                                        "can_highlight": false,
+                                        "shape": "none",
+                                        "type": "none",
+                                        "input": "",
+                                        "shift_input": "",
+                                        "input_options": [],
+                                        "positioning_portrait": {
+                                        "type": "fixed",
+                                        "value": 0
+                                        },
+                                        "positioning_landscape": {
+                                        "type": "auto",
+                                        "value": 0.105
+                                        }
+                                        }
+                                        ]
+                               }
+                               ],
+                  "numbers": [
+                              {
+                              "index": 0,
+                              "positioning_portrait": {
+                              "type": "auto",
+                              "value": 1
+                              },
+                              "positioning_landscape": {
+                              "type": "auto",
+                              "value": 1
+                              },
+                              "keys": [
+                                       {
+                                       "index": 0,
+                                       "style": "dark",
+                                       "can_popup": false,
+                                       "can_highlight": false,
+                                       "shape": "none",
+                                       "type": "none",
+                                       "input": "",
+                                       "shift_input": "",
+                                       "input_options": [],
+                                       "positioning_portrait": {
+                                       "type": "fixed",
+                                       "value": 0
+                                       },
+                                       "positioning_landscape": {
+                                       "type": "auto",
+                                       "value": 0.105
+                                       }
+                                       },
+                                       {
+                                       "index": 1,
+                                       "style": "light",
+                                       "can_popup": true,
+                                       "can_highlight": true,
+                                       "shape": "none",
+                                       "type": "none",
+                                       "input": "1",
+                                       "shift_input": "[",
+                                       "input_options": [],
+                                       "positioning_portrait": {
+                                       "type": "auto",
+                                       "value": 0.1
+                                       },
+                                       "positioning_landscape": {
+                                       "type": "auto",
+                                       "value": 0.079
+                                       }
+                                       },
+                                       {
+                                       "index": 2,
+                                       "style": "light",
+                                       "can_popup": true,
+                                       "can_highlight": true,
+                                       "shape": "none",
+                                       "type": "none",
+                                       "input": "2",
+                                       "shift_input": "]",
+                                       "input_options": [],
+                                       "positioning_portrait": {
+                                       "type": "auto",
+                                       "value": 0.1
+                                       },
+                                       "positioning_landscape": {
+                                       "type": "auto",
+                                       "value": 0.079
+                                       }
+                                       },
+                                       {
+                                       "index": 3,
+                                       "style": "light",
+                                       "can_popup": true,
+                                       "can_highlight": true,
+                                       "shape": "none",
+                                       "type": "none",
+                                       "input": "3",
+                                       "shift_input": "{",
+                                       "input_options": [],
+                                       "positioning_portrait": {
+                                       "type": "auto",
+                                       "value": 0.1
+                                       },
+                                       "positioning_landscape": {
+                                       "type": "auto",
+                                       "value": 0.079
+                                       }
+                                       },
+                                       {
+                                       "index": 4,
+                                       "style": "light",
+                                       "can_popup": true,
+                                       "can_highlight": true,
+                                       "shape": "none",
+                                       "type": "none",
+                                       "input": "4",
+                                       "shift_input": "}",
+                                       "input_options": [],
+                                       "positioning_portrait": {
+                                       "type": "auto",
+                                       "value": 0.1
+                                       },
+                                       "positioning_landscape": {
+                                       "type": "auto",
+                                       "value": 0.079
+                                       }
+                                       },
+                                       {
+                                       "index": 5,
+                                       "style": "light",
+                                       "can_popup": true,
+                                       "can_highlight": true,
+                                       "shape": "none",
+                                       "type": "none",
+                                       "input": "5",
+                                       "shift_input": "#",
+                                       "input_options": [],
+                                       "positioning_portrait": {
+                                       "type": "auto",
+                                       "value": 0.1
+                                       },
+                                       "positioning_landscape": {
+                                       "type": "auto",
+                                       "value": 0.079
+                                       }
+                                       },
+                                       {
+                                       "index": 6,
+                                       "style": "light",
+                                       "can_popup": true,
+                                       "can_highlight": true,
+                                       "shape": "none",
+                                       "type": "none",
+                                       "input": "6",
+                                       "shift_input": "%",
+                                       "input_options": [],
+                                       "positioning_portrait": {
+                                       "type": "auto",
+                                       "value": 0.1
+                                       },
+                                       "positioning_landscape": {
+                                       "type": "auto",
+                                       "value": 0.079
+                                       }
+                                       },
+                                       {
+                                       "index": 7,
+                                       "style": "light",
+                                       "can_popup": true,
+                                       "can_highlight": true,
+                                       "shape": "none",
+                                       "type": "none",
+                                       "input": "7",
+                                       "shift_input": "^",
+                                       "input_options": [],
+                                       "positioning_portrait": {
+                                       "type": "auto",
+                                       "value": 0.1
+                                       },
+                                       "positioning_landscape": {
+                                       "type": "auto",
+                                       "value": 0.079
+                                       }
+                                       },
+                                       {
+                                       "index": 8,
+                                       "style": "light",
+                                       "can_popup": true,
+                                       "can_highlight": true,
+                                       "shape": "none",
+                                       "type": "none",
+                                       "input": "8",
+                                       "shift_input": "*",
+                                       "input_options": [],
+                                       "positioning_portrait": {
+                                       "type": "auto",
+                                       "value": 0.1
+                                       },
+                                       "positioning_landscape": {
+                                       "type": "auto",
+                                       "value": 0.079
+                                       }
+                                       },
+                                       {
+                                       "index": 9,
+                                       "style": "light",
+                                       "can_popup": true,
+                                       "can_highlight": true,
+                                       "shape": "none",
+                                       "type": "none",
+                                       "input": "9",
+                                       "shift_input": "+",
+                                       "input_options": [],
+                                       "positioning_portrait": {
+                                       "type": "auto",
+                                       "value": 0.1
+                                       },
+                                       "positioning_landscape": {
+                                       "type": "auto",
+                                       "value": 0.079
+                                       }
+                                       },
+                                       {
+                                       "index": 10,
+                                       "style": "light",
+                                       "can_popup": true,
+                                       "can_highlight": true,
+                                       "shape": "none",
+                                       "type": "none",
+                                       "input": "0",
+                                       "shift_input": "=",
+                                       "input_options": [],
+                                       "positioning_portrait": {
+                                       "type": "auto",
+                                       "value": 0.1
+                                       },
+                                       "positioning_landscape": {
+                                       "type": "auto",
+                                       "value": 0.079
+                                       }
+                                       },
+                                       {
+                                       "index": 11,
+                                       "style": "dark",
+                                       "can_popup": false,
+                                       "can_highlight": false,
+                                       "shape": "none",
+                                       "type": "none",
+                                       "input": "",
+                                       "shift_input": "",
+                                       "input_options": [],
+                                       "positioning_portrait": {
+                                       "type": "fixed",
+                                       "value": 0
+                                       },
+                                       "positioning_landscape": {
+                                       "type": "auto",
+                                       "value": 0.105
+                                       }
+                                       }
+                                       ]
+                              },
+                              {
+                              "index": 1,
+                              "positioning_portrait": {
+                              "type": "auto",
+                              "value": 1
+                              },
+                              "positioning_landscape": {
+                              "type": "auto",
+                              "value": 1
+                              },
+                              "keys": [
+                                       {
+                                       "index": 0,
+                                       "style": "dark",
+                                       "can_popup": false,
+                                       "can_highlight": false,
+                                       "shape": "none",
+                                       "type": "none",
+                                       "input": "",
+                                       "shift_input": "",
+                                       "input_options": [],
+                                       "positioning_portrait": {
+                                       "type": "fixed",
+                                       "value": 0
+                                       },
+                                       "positioning_landscape": {
+                                       "type": "auto",
+                                       "value": 0.105
+                                       }
+                                       },
+                                       {
+                                       "index": 1,
+                                       "style": "light",
+                                       "can_popup": true,
+                                       "can_highlight": true,
+                                       "shape": "none",
+                                       "type": "none",
+                                       "input": "-",
+                                       "shift_input": "_",
+                                       "input_options": [],
+                                       "positioning_portrait": {
+                                       "type": "auto",
+                                       "value": 0.1
+                                       },
+                                       "positioning_landscape": {
+                                       "type": "auto",
+                                       "value": 0.079
+                                       }
+                                       },
+                                       {
+                                       "index": 2,
+                                       "style": "light",
+                                       "can_popup": true,
+                                       "can_highlight": true,
+                                       "shape": "none",
+                                       "type": "none",
+                                       "input": "/",
+                                       "shift_input": "\\",
+                                       "input_options": [],
+                                       "positioning_portrait": {
+                                       "type": "auto",
+                                       "value": 0.1
+                                       },
+                                       "positioning_landscape": {
+                                       "type": "auto",
+                                       "value": 0.079
+                                       }
+                                       },
+                                       {
+                                       "index": 3,
+                                       "style": "light",
+                                       "can_popup": true,
+                                       "can_highlight": true,
+                                       "shape": "none",
+                                       "type": "none",
+                                       "input": ":",
+                                       "shift_input": "|",
+                                       "input_options": [],
+                                       "positioning_portrait": {
+                                       "type": "auto",
+                                       "value": 0.1
+                                       },
+                                       "positioning_landscape": {
+                                       "type": "auto",
+                                       "value": 0.079
+                                       }
+                                       },
+                                       {
+                                       "index": 4,
+                                       "style": "light",
+                                       "can_popup": true,
+                                       "can_highlight": true,
+                                       "shape": "none",
+                                       "type": "none",
+                                       "input": ";",
+                                       "shift_input": "~",
+                                       "input_options": [],
+                                       "positioning_portrait": {
+                                       "type": "auto",
+                                       "value": 0.1
+                                       },
+                                       "positioning_landscape": {
+                                       "type": "auto",
+                                       "value": 0.079
+                                       }
+                                       },
+                                       {
+                                       "index": 5,
+                                       "style": "light",
+                                       "can_popup": true,
+                                       "can_highlight": true,
+                                       "shape": "none",
+                                       "type": "none",
+                                       "input": "(",
+                                       "shift_input": "<",
+                                       "input_options": [],
+                                       "positioning_portrait": {
+                                       "type": "auto",
+                                       "value": 0.1
+                                       },
+                                       "positioning_landscape": {
+                                       "type": "auto",
+                                       "value": 0.079
+                                       }
+                                       },
+                                       {
+                                       "index": 6,
+                                       "style": "light",
+                                       "can_popup": true,
+                                       "can_highlight": true,
+                                       "shape": "none",
+                                       "type": "none",
+                                       "input": ")",
+                                       "shift_input": ">",
+                                       "input_options": [],
+                                       "positioning_portrait": {
+                                       "type": "auto",
+                                       "value": 0.1
+                                       },
+                                       "positioning_landscape": {
+                                       "type": "auto",
+                                       "value": 0.079
+                                       }
+                                       },
+                                       {
+                                       "index": 7,
+                                       "style": "light",
+                                       "can_popup": true,
+                                       "can_highlight": true,
+                                       "shape": "none",
+                                       "type": "none",
+                                       "input": "$",
+                                       "shift_input": "€",
+                                       "input_options": [],
+                                       "positioning_portrait": {
+                                       "type": "auto",
+                                       "value": 0.1
+                                       },
+                                       "positioning_landscape": {
+                                       "type": "auto",
+                                       "value": 0.079
+                                       }
+                                       },
+                                       {
+                                       "index": 8,
+                                       "style": "light",
+                                       "can_popup": true,
+                                       "can_highlight": true,
+                                       "shape": "none",
+                                       "type": "none",
+                                       "input": "&",
+                                       "shift_input": "£",
+                                       "input_options": [],
+                                       "positioning_portrait": {
+                                       "type": "auto",
+                                       "value": 0.1
+                                       },
+                                       "positioning_landscape": {
+                                       "type": "auto",
+                                       "value": 0.079
+                                       }
+                                       },
+                                       {
+                                       "index": 9,
+                                       "style": "light",
+                                       "can_popup": true,
+                                       "can_highlight": true,
+                                       "shape": "none",
+                                       "type": "none",
+                                       "input": "@",
+                                       "shift_input": "¥",
+                                       "input_options": [],
+                                       "positioning_portrait": {
+                                       "type": "auto",
+                                       "value": 0.1
+                                       },
+                                       "positioning_landscape": {
+                                       "type": "auto",
+                                       "value": 0.079
+                                       }
+                                       },
+                                       {
+                                       "index": 10,
+                                       "style": "light",
+                                       "can_popup": true,
+                                       "can_highlight": true,
+                                       "shape": "none",
+                                       "type": "none",
+                                       "input": "•",
+                                       "shift_input": "\"",
+                                       "input_options": [],
+                                       "positioning_portrait": {
+                                       "type": "auto",
+                                       "value": 0.1
+                                       },
+                                       "positioning_landscape": {
+                                       "type": "auto",
+                                       "value": 0.079
+                                       }
+                                       },
+                                       {
+                                       "index": 11,
+                                       "style": "dark",
+                                       "can_popup": false,
+                                       "can_highlight": false,
+                                       "shape": "none",
+                                       "type": "none",
+                                       "input": "",
+                                       "shift_input": "",
+                                       "input_options": [],
+                                       "positioning_portrait": {
+                                       "type": "fixed",
+                                       "value": 0
+                                       },
+                                       "positioning_landscape": {
+                                       "type": "auto",
+                                       "value": 0.105
+                                       }
+                                       }
+                                       ]
+                              },
+                              {
+                              "index": 2,
+                              "positioning_portrait": {
+                              "type": "auto",
+                              "value": 1
+                              },
+                              "positioning_landscape": {
+                              "type": "auto",
+                              "value": 1
+                              },
+                              "keys": [
+                                       {
+                                       "index": 0,
+                                       "style": "dark",
+                                       "can_popup": false,
+                                       "can_highlight": false,
+                                       "shape": "none",
+                                       "type": "none",
+                                       "input": "",
+                                       "shift_input": "",
+                                       "input_options": [],
+                                       "positioning_portrait": {
+                                       "type": "fixed",
+                                       "value": 0
+                                       },
+                                       "positioning_landscape": {
+                                       "type": "auto",
+                                       "value": 0.105
+                                       }
+                                       },
+                                       {
+                                       "index": 1,
+                                       "style": "dark",
+                                       "can_popup": false,
+                                       "can_highlight": true,
+                                       "shape": "shift",
+                                       "type": "shift",
+                                       "input": "",
+                                       "shift_input": "",
+                                       "input_options": [],
+                                       "positioning_portrait": {
+                                       "type": "fixed",
+                                       "value": 48,
+                                       "empty_right": 0.25
+                                       },
+                                       "positioning_landscape": {
+                                       "type": "fixed",
+                                       "value": 68,
+                                       "empty_right": 0.25
+                                       }
+                                       },
+                                       {
+                                       "index": 2,
+                                       "style": "light",
+                                       "can_popup": true,
+                                       "can_highlight": true,
+                                       "shape": "none",
+                                       "type": "none",
+                                       "input": ".",
+                                       "shift_input": ".",
+                                       "input_options": [],
+                                       "positioning_portrait": {
+                                       "type": "fixed",
+                                       "value": 52,
+                                       "empty_left": 0.25
+                                       },
+                                       "positioning_landscape": {
+                                       "type": "fixed",
+                                       "value": 73,
+                                       "empty_left": 0.25
+                                       }
+                                       },
+                                       {
+                                       "index": 3,
+                                       "style": "light",
+                                       "can_popup": true,
+                                       "can_highlight": true,
+                                       "shape": "none",
+                                       "type": "none",
+                                       "input": ",",
+                                       "shift_input": ",",
+                                       "input_options": [],
+                                       "positioning_portrait": {
+                                       "type": "fixed",
+                                       "value": 52
+                                       },
+                                       "positioning_landscape": {
+                                       "type": "fixed",
+                                       "value": 73
+                                       }
+                                       },
+                                       {
+                                       "index": 4,
+                                       "style": "light",
+                                       "can_popup": true,
+                                       "can_highlight": true,
+                                       "shape": "none",
+                                       "type": "none",
+                                       "input": "?",
+                                       "shift_input": "?",
+                                       "input_options": [],
+                                       "positioning_portrait": {
+                                       "type": "fixed",
+                                       "value": 52
+                                       },
+                                       "positioning_landscape": {
+                                       "type": "fixed",
+                                       "value": 73
+                                       }
+                                       },
+                                       {
+                                       "index": 5,
+                                       "style": "light",
+                                       "can_popup": true,
+                                       "can_highlight": true,
+                                       "shape": "none",
+                                       "type": "none",
+                                       "input": "!",
+                                       "shift_input": "!",
+                                       "input_options": [],
+                                       "positioning_portrait": {
+                                       "type": "fixed",
+                                       "value": 52
+                                       },
+                                       "positioning_landscape": {
+                                       "type": "fixed",
+                                       "value": 73
+                                       }
+                                       },
+                                       {
+                                       "index": 6,
+                                       "style": "light",
+                                       "can_popup": true,
+                                       "can_highlight": true,
+                                       "shape": "none",
+                                       "type": "none",
+                                       "input": "'",
+                                       "shift_input": "'",
+                                       "input_options": [],
+                                       "positioning_portrait": {
+                                       "type": "fixed",
+                                       "value": 52,
+                                       "empty_right": 0.25
+                                       },
+                                       "positioning_landscape": {
+                                       "type": "fixed",
+                                       "value": 73,
+                                       "empty_right": 0.25
+                                       }
+                                       },
+                                       {
+                                       "index": 7,
+                                       "style": "dark",
+                                       "can_popup": false,
+                                       "can_highlight": true,
+                                       "shape": "delete",
+                                       "type": "delete",
+                                       "input": "",
+                                       "shift_input": "",
+                                       "input_options": [],
+                                       "positioning_portrait": {
+                                       "type": "fixed",
+                                       "value": 48,
+                                       "empty_left": 0.25
+                                       },
+                                       "positioning_landscape": {
+                                       "type": "fixed",
+                                       "value": 68,
+                                       "empty_left": 0.25
+                                       }
+                                       },
+                                       {
+                                       "index": 8,
+                                       "style": "dark",
+                                       "can_popup": false,
+                                       "can_highlight": false,
+                                       "shape": "none",
+                                       "type": "none",
+                                       "input": "",
+                                       "shift_input": "",
+                                       "input_options": [],
+                                       "positioning_portrait": {
+                                       "type": "fixed",
+                                       "value": 0,
+                                       "empty_right": 0.5
+                                       },
+                                       "positioning_landscape": {
+                                       "type": "auto",
+                                       "value": 0.105,
+                                       "empty_right": 0.5
+                                       }
+                                       }
+                                       ]
+                              }
+                              ]
+                  }
+                  ],
+    "bottom": {
+        "index": 0,
+        "positioning_portrait": {
+            "type": "auto",
+            "value": 1
+        },
+        "positioning_landscape": {
+            "type": "auto",
+            "value": 1
+        },
+        "keys": [
+                 {
+                 "index": 0,
+                 "style": "dark",
+                 "can_popup": false,
+                 "can_highlight": false,
+                 "shape": "none",
+                 "type": "none",
+                 "input": "",
+                 "shift_input": "",
+                 "input_options": [],
+                 "positioning_portrait": {
+                 "type": "fixed",
+                 "value": 0
+                 },
+                 "positioning_landscape": {
+                 "type": "auto",
+                 "value": 0.105
+                 }
+                 },
+                 {
+                 "index": 1,
+                 "style": "dark",
+                 "can_popup": false,
+                 "can_highlight": false,
+                 "shape": "none",
+                 "type": "numbers",
+                 "input": "",
+                 "shift_input": "",
+                 "input_options": [],
+                 "positioning_portrait": {
+                 "type": "fixed",
+                 "value": 46.5
+                 },
+                 "positioning_landscape": {
+                 "type": "fixed",
+                 "value": 52
+                 }
+                 },
+                 {
+                 "index": 2,
+                 "style": "dark",
+                 "can_popup": false,
+                 "can_highlight": false,
+                 "shape": "globe",
+                 "type": "language",
+                 "input": "",
+                 "shift_input": "",
+                 "input_options": [],
+                 "positioning_portrait": {
+                 "type": "fixed",
+                 "value": 46.5
+                 },
+                 "positioning_landscape": {
+                 "type": "fixed",
+                 "value": 52
+                 }
+                 },
+                 {
+                 "index": 3,
+                 "style": "light",
+                 "can_popup": false,
+                 "can_highlight": false,
+                 "shape": "none",
+                 "type": "space",
+                 "input": "space",
+                 "shift_input": "",
+                 "input_options": [],
+                 "positioning_portrait": {
+                 "type": "rest"
+                 },
+                 "positioning_landscape": {
+                 "type": "rest"
+                 }
+                 },
+                 {
+                 "index": 4,
+                 "style": "blue",
+                 "can_popup": false,
+                 "can_highlight": false,
+                 "shape": "none",
+                 "type": "return",
+                 "input": "",
+                 "shift_input": "",
+                 "input_options": [],
+                 "positioning_portrait": {
+                 "type": "fixed",
+                 "value": 93.5
+                 },
+                 "positioning_landscape": {
+                 "type": "fixed",
+                 "value": 104
+                 }
+                 },
+                 {
+                 "index": 5,
+                 "style": "dark",
+                 "can_popup": false,
+                 "can_highlight": false,
+                 "shape": "none",
+                 "input": "",
+                 "shift_input": "",
+                 "input_options": [],
+                 "positioning_portrait": {
+                 "type": "fixed",
+                 "value": 0
+                 },
+                 "positioning_landscape": {
+                 "type": "auto",
+                 "value": 0.105
+                 }
+                 }
+                 ]
+    }
+}

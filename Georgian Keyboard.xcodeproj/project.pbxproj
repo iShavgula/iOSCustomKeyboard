@@ -1,0 +1,1227 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35126637F7C6E5D7356947DB /* Pods_GK_Keyboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F876F0A7F8325FF7F352432 /* Pods_GK_Keyboard.framework */; };
+		47444C3BE418FC828FCE01DF /* Pods_GK_Georgian_Keyboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85E0C2CA14C0364FC2F4E3C2 /* Pods_GK_Georgian_Keyboard.framework */; };
+		5607AE231D93F1DD00125411 /* KeyboardKeyDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5607AE221D93F1DD00125411 /* KeyboardKeyDrawing.swift */; };
+		560F77A11D89D34F005FB150 /* RealmTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560F77A01D89D34F005FB150 /* RealmTheme.swift */; };
+		560F77A91D89D3A3005FB150 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560F77A81D89D3A3005FB150 /* Theme.swift */; };
+		560F77AB1D89D5AE005FB150 /* ThemeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560F77AA1D89D5AE005FB150 /* ThemeBackground.swift */; };
+		560F77AD1D89D679005FB150 /* RealmThemeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560F77AC1D89D679005FB150 /* RealmThemeBackground.swift */; };
+		560F77B01D89D931005FB150 /* ColorUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560F77AF1D89D931005FB150 /* ColorUtilities.swift */; };
+		560F77B21D89DB2C005FB150 /* ImageUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560F77B11D89DB2C005FB150 /* ImageUtilities.swift */; };
+		560F77B41D89DB77005FB150 /* FileUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560F77B31D89DB77005FB150 /* FileUtilities.swift */; };
+		560F77B61D89DD29005FB150 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560F77B51D89DD29005FB150 /* Utilities.swift */; };
+		560F77B81D89E973005FB150 /* ThemeKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560F77B71D89E973005FB150 /* ThemeKeys.swift */; };
+		560F77BA1D89EC18005FB150 /* ThemeKeyFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560F77B91D89EC18005FB150 /* ThemeKeyFrame.swift */; };
+		560F77BC1D89EC34005FB150 /* RealmThemeKeyFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560F77BB1D89EC34005FB150 /* RealmThemeKeyFrame.swift */; };
+		560F77BE1D89F139005FB150 /* ThemeKeyColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560F77BD1D89F139005FB150 /* ThemeKeyColors.swift */; };
+		560F77C01D89F2B3005FB150 /* RealmThemeKeyColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560F77BF1D89F2B3005FB150 /* RealmThemeKeyColors.swift */; };
+		560F77C21D89F44F005FB150 /* RealmThemeKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560F77C11D89F44F005FB150 /* RealmThemeKeys.swift */; };
+		560F77C71D89FC79005FB150 /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560F77C61D89FC79005FB150 /* Keyboard.swift */; };
+		560F77C91D89FCA6005FB150 /* KeyboardLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560F77C81D89FCA6005FB150 /* KeyboardLanguage.swift */; };
+		560F77CB1D89FCD9005FB150 /* KeyboardLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560F77CA1D89FCD9005FB150 /* KeyboardLine.swift */; };
+		560F77CD1D89FE8A005FB150 /* KeyboardKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560F77CC1D89FE8A005FB150 /* KeyboardKey.swift */; };
+		560F77D01D8A0CB8005FB150 /* RealmKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560F77CF1D8A0CB8005FB150 /* RealmKeyboard.swift */; };
+		560F77D21D8A0CC1005FB150 /* RealmKeyboardLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560F77D11D8A0CC1005FB150 /* RealmKeyboardLanguage.swift */; };
+		560F77D41D8A0CDC005FB150 /* RealmKeyboardLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560F77D31D8A0CDC005FB150 /* RealmKeyboardLine.swift */; };
+		560F77D61D8A0CE8005FB150 /* RealmKeyboardKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560F77D51D8A0CE8005FB150 /* RealmKeyboardKey.swift */; };
+		560F77D81D8A0E83005FB150 /* RealmString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560F77D71D8A0E83005FB150 /* RealmString.swift */; };
+		560FD3D51D9549D900D42DC8 /* KeyboardLineStoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560FD3D41D9549D900D42DC8 /* KeyboardLineStoreView.swift */; };
+		562D39561D88A43100BA7C28 /* Georgian_KeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562D39551D88A43100BA7C28 /* Georgian_KeyboardTests.swift */; };
+		562D39611D88A43100BA7C28 /* Georgian_KeyboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562D39601D88A43100BA7C28 /* Georgian_KeyboardUITests.swift */; };
+		562D39851D88A4E400BA7C28 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562D39841D88A4E400BA7C28 /* KeyboardViewController.swift */; };
+		562D39891D88A4E400BA7C28 /* Keyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 562D39821D88A4E400BA7C28 /* Keyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		566BD26D1D8DC71B00BB818D /* RealmKeyboardVerticalPositioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566BD26C1D8DC71B00BB818D /* RealmKeyboardVerticalPositioning.swift */; };
+		566BD26F1D8DD49A00BB818D /* RealmKeyboardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566BD26E1D8DD49A00BB818D /* RealmKeyboardInfo.swift */; };
+		566BD2711D8DEB4B00BB818D /* KeyboardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566BD2701D8DEB4B00BB818D /* KeyboardInfo.swift */; };
+		566BD2741D8DF0F100BB818D /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566BD2731D8DF0F100BB818D /* KeyboardView.swift */; };
+		566BD2761D8DF11800BB818D /* KeyboardLanguageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566BD2751D8DF11800BB818D /* KeyboardLanguageView.swift */; };
+		566BD2781D8DF13200BB818D /* KeyboardLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566BD2771D8DF13200BB818D /* KeyboardLineView.swift */; };
+		566BD27A1D8DF15500BB818D /* KeyboardKeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566BD2791D8DF15500BB818D /* KeyboardKeyView.swift */; };
+		566BD27E1D8DFA8600BB818D /* KeyboardState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566BD27D1D8DFA8600BB818D /* KeyboardState.swift */; };
+		566BD2811D8E8CE500BB818D /* RealmDefaultKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566BD2801D8E8CE500BB818D /* RealmDefaultKeyboard.swift */; };
+		566BD2831D8EC44D00BB818D /* default_keyboard.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 566BD2821D8EC44D00BB818D /* default_keyboard.geojson */; };
+		566BD2841D8EC8F600BB818D /* default_keyboard.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 566BD2821D8EC44D00BB818D /* default_keyboard.geojson */; };
+		566E46D41DCDF6F2006576D3 /* KeyboardState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566BD27D1D8DFA8600BB818D /* KeyboardState.swift */; };
+		566E46D51DCDF6F2006576D3 /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560F77C61D89FC79005FB150 /* Keyboard.swift */; };
+		566E46D61DCDF6F2006576D3 /* KeyboardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566BD2701D8DEB4B00BB818D /* KeyboardInfo.swift */; };
+		566E46D71DCDF6F2006576D3 /* KeyboardLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560F77C81D89FCA6005FB150 /* KeyboardLanguage.swift */; };
+		566E46D81DCDF6F2006576D3 /* KeyboardLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560F77CA1D89FCD9005FB150 /* KeyboardLine.swift */; };
+		566E46D91DCDF6F2006576D3 /* KeyboardKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560F77CC1D89FE8A005FB150 /* KeyboardKey.swift */; };
+		566E46DA1DCDF6F2006576D3 /* KeyboardPositioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5675DF811D8B19E2009DFB57 /* KeyboardPositioning.swift */; };
+		566E46DC1DCE021D006576D3 /* Expressions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566E46DB1DCE021D006576D3 /* Expressions.swift */; };
+		566E46DD1DCE021D006576D3 /* Expressions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566E46DB1DCE021D006576D3 /* Expressions.swift */; };
+		566E46DE1DCE08D2006576D3 /* RealmTransforms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5675DF831D8B2AD4009DFB57 /* RealmTransforms.swift */; };
+		566E46DF1DCE08D2006576D3 /* RealmString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560F77D71D8A0E83005FB150 /* RealmString.swift */; };
+		566E46E01DCE08D2006576D3 /* RealmKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560F77CF1D8A0CB8005FB150 /* RealmKeyboard.swift */; };
+		566E46E11DCE08D2006576D3 /* RealmKeyboardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566BD26E1D8DD49A00BB818D /* RealmKeyboardInfo.swift */; };
+		566E46E21DCE08D2006576D3 /* RealmKeyboardLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560F77D11D8A0CC1005FB150 /* RealmKeyboardLanguage.swift */; };
+		566E46E31DCE08D2006576D3 /* RealmKeyboardLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560F77D31D8A0CDC005FB150 /* RealmKeyboardLine.swift */; };
+		566E46E41DCE08D2006576D3 /* RealmKeyboardKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560F77D51D8A0CE8005FB150 /* RealmKeyboardKey.swift */; };
+		566E46E51DCE08D2006576D3 /* RealmKeyboardHorizontalPositioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5675DF7F1D8B1995009DFB57 /* RealmKeyboardHorizontalPositioning.swift */; };
+		566E46E61DCE08D2006576D3 /* RealmKeyboardVerticalPositioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566BD26C1D8DC71B00BB818D /* RealmKeyboardVerticalPositioning.swift */; };
+		566E46E71DCE08D2006576D3 /* RealmTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560F77A01D89D34F005FB150 /* RealmTheme.swift */; };
+		566E46E81DCE08D2006576D3 /* RealmThemeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560F77AC1D89D679005FB150 /* RealmThemeBackground.swift */; };
+		566E46E91DCE08D2006576D3 /* RealmThemeKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560F77C11D89F44F005FB150 /* RealmThemeKeys.swift */; };
+		566E46EA1DCE08D2006576D3 /* RealmThemeKeyColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560F77BF1D89F2B3005FB150 /* RealmThemeKeyColors.swift */; };
+		566E46EB1DCE08D2006576D3 /* RealmThemeKeyFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560F77BB1D89EC34005FB150 /* RealmThemeKeyFrame.swift */; };
+		566E46EC1DCE08DC006576D3 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560F77A81D89D3A3005FB150 /* Theme.swift */; };
+		566E46ED1DCE08DC006576D3 /* ThemeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560F77AA1D89D5AE005FB150 /* ThemeBackground.swift */; };
+		566E46EE1DCE08DC006576D3 /* ThemeKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560F77B71D89E973005FB150 /* ThemeKeys.swift */; };
+		566E46EF1DCE08DC006576D3 /* ThemeKeyColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560F77BD1D89F139005FB150 /* ThemeKeyColors.swift */; };
+		566E46F01DCE08DC006576D3 /* ThemeKeyFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560F77B91D89EC18005FB150 /* ThemeKeyFrame.swift */; };
+		566E46F11DCE291C006576D3 /* ColorUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560F77AF1D89D931005FB150 /* ColorUtilities.swift */; };
+		566E46F21DCE2939006576D3 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560F77B51D89DD29005FB150 /* Utilities.swift */; };
+		566E46F31DCE2962006576D3 /* ImageUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560F77B11D89DB2C005FB150 /* ImageUtilities.swift */; };
+		5675DF801D8B1995009DFB57 /* RealmKeyboardHorizontalPositioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5675DF7F1D8B1995009DFB57 /* RealmKeyboardHorizontalPositioning.swift */; };
+		5675DF821D8B19E2009DFB57 /* KeyboardPositioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5675DF811D8B19E2009DFB57 /* KeyboardPositioning.swift */; };
+		5675DF841D8B2AD4009DFB57 /* RealmTransforms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5675DF831D8B2AD4009DFB57 /* RealmTransforms.swift */; };
+		5688C2C91E246E860053B0B5 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562D39841D88A4E400BA7C28 /* KeyboardViewController.swift */; };
+		568C7A561EE88C620011993C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568C7A4C1EE88C620011993C /* AppDelegate.swift */; };
+		568C7A571EE88C620011993C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 568C7A4D1EE88C620011993C /* Assets.xcassets */; };
+		568C7A581EE88C620011993C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 568C7A4F1EE88C620011993C /* LaunchScreen.storyboard */; };
+		568C7A591EE88C620011993C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 568C7A511EE88C620011993C /* Main.storyboard */; };
+		568C7A5A1EE88C620011993C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568C7A551EE88C620011993C /* ViewController.swift */; };
+		569525EC1D948D4F000233E5 /* KeyTouchPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569525EB1D948D4F000233E5 /* KeyTouchPool.swift */; };
+		5696AC581DCE29C200AF81A6 /* FileUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560F77B31D89DB77005FB150 /* FileUtilities.swift */; };
+		5696AC591DCE2B9300AF81A6 /* RealmDefaultKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566BD2801D8E8CE500BB818D /* RealmDefaultKeyboard.swift */; };
+		56B271A01DB15AB000FCE25A /* KeyTouchPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569525EB1D948D4F000233E5 /* KeyTouchPool.swift */; };
+		56D3B1CD1E900B9900E2E5A0 /* KeyboardPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D3B1CC1E900B9900E2E5A0 /* KeyboardPopup.swift */; };
+		56D3B1CE1E900B9900E2E5A0 /* KeyboardPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D3B1CC1E900B9900E2E5A0 /* KeyboardPopup.swift */; };
+		56E26F7F1DCBFDD3006861A8 /* KeyboardInputActionPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E26F7E1DCBFDD3006861A8 /* KeyboardInputActionPool.swift */; };
+		56E26F801DCBFDD3006861A8 /* KeyboardInputActionPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E26F7E1DCBFDD3006861A8 /* KeyboardInputActionPool.swift */; };
+		56E26F821DCC003D006861A8 /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566BD2731D8DF0F100BB818D /* KeyboardView.swift */; };
+		56E26F831DCC003D006861A8 /* KeyboardLanguageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566BD2751D8DF11800BB818D /* KeyboardLanguageView.swift */; };
+		56E26F841DCC003D006861A8 /* KeyboardLineStoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560FD3D41D9549D900D42DC8 /* KeyboardLineStoreView.swift */; };
+		56E26F851DCC003D006861A8 /* KeyboardLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566BD2771D8DF13200BB818D /* KeyboardLineView.swift */; };
+		56E26F861DCC003D006861A8 /* KeyboardKeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566BD2791D8DF15500BB818D /* KeyboardKeyView.swift */; };
+		56E26F871DCC003D006861A8 /* KeyboardKeyDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5607AE221D93F1DD00125411 /* KeyboardKeyDrawing.swift */; };
+		56FE99E71E783E05008DC29B /* KeyboardPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FE99E61E783E05008DC29B /* KeyboardPopupView.swift */; };
+		56FE99E81E783E05008DC29B /* KeyboardPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FE99E61E783E05008DC29B /* KeyboardPopupView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		562D39521D88A43100BA7C28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 562D39351D88A43000BA7C28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 562D393C1D88A43000BA7C28;
+			remoteInfo = "Georgian Keyboard";
+		};
+		562D395D1D88A43100BA7C28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 562D39351D88A43000BA7C28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 562D393C1D88A43000BA7C28;
+			remoteInfo = "Georgian Keyboard";
+		};
+		562D39871D88A4E400BA7C28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 562D39351D88A43000BA7C28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 562D39811D88A4E400BA7C28;
+			remoteInfo = Keyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		562D397D1D88A49400BA7C28 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				562D39891D88A4E400BA7C28 /* Keyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5607AE221D93F1DD00125411 /* KeyboardKeyDrawing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardKeyDrawing.swift; sourceTree = "<group>"; };
+		560F77A01D89D34F005FB150 /* RealmTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmTheme.swift; sourceTree = "<group>"; };
+		560F77A81D89D3A3005FB150 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		560F77AA1D89D5AE005FB150 /* ThemeBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeBackground.swift; sourceTree = "<group>"; };
+		560F77AC1D89D679005FB150 /* RealmThemeBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmThemeBackground.swift; sourceTree = "<group>"; };
+		560F77AF1D89D931005FB150 /* ColorUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorUtilities.swift; sourceTree = "<group>"; };
+		560F77B11D89DB2C005FB150 /* ImageUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageUtilities.swift; sourceTree = "<group>"; };
+		560F77B31D89DB77005FB150 /* FileUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileUtilities.swift; sourceTree = "<group>"; };
+		560F77B51D89DD29005FB150 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		560F77B71D89E973005FB150 /* ThemeKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeKeys.swift; sourceTree = "<group>"; };
+		560F77B91D89EC18005FB150 /* ThemeKeyFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeKeyFrame.swift; sourceTree = "<group>"; };
+		560F77BB1D89EC34005FB150 /* RealmThemeKeyFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmThemeKeyFrame.swift; sourceTree = "<group>"; };
+		560F77BD1D89F139005FB150 /* ThemeKeyColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeKeyColors.swift; sourceTree = "<group>"; };
+		560F77BF1D89F2B3005FB150 /* RealmThemeKeyColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmThemeKeyColors.swift; sourceTree = "<group>"; };
+		560F77C11D89F44F005FB150 /* RealmThemeKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmThemeKeys.swift; sourceTree = "<group>"; };
+		560F77C61D89FC79005FB150 /* Keyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
+		560F77C81D89FCA6005FB150 /* KeyboardLanguage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardLanguage.swift; sourceTree = "<group>"; };
+		560F77CA1D89FCD9005FB150 /* KeyboardLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardLine.swift; sourceTree = "<group>"; };
+		560F77CC1D89FE8A005FB150 /* KeyboardKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardKey.swift; sourceTree = "<group>"; };
+		560F77CF1D8A0CB8005FB150 /* RealmKeyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmKeyboard.swift; sourceTree = "<group>"; };
+		560F77D11D8A0CC1005FB150 /* RealmKeyboardLanguage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmKeyboardLanguage.swift; sourceTree = "<group>"; };
+		560F77D31D8A0CDC005FB150 /* RealmKeyboardLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmKeyboardLine.swift; sourceTree = "<group>"; };
+		560F77D51D8A0CE8005FB150 /* RealmKeyboardKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmKeyboardKey.swift; sourceTree = "<group>"; };
+		560F77D71D8A0E83005FB150 /* RealmString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmString.swift; sourceTree = "<group>"; };
+		560FD3D41D9549D900D42DC8 /* KeyboardLineStoreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardLineStoreView.swift; sourceTree = "<group>"; };
+		562D393D1D88A43000BA7C28 /* Georgian Keyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Georgian Keyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		562D394C1D88A43100BA7C28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		562D39511D88A43100BA7C28 /* Georgian KeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Georgian KeyboardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		562D39551D88A43100BA7C28 /* Georgian_KeyboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Georgian_KeyboardTests.swift; sourceTree = "<group>"; };
+		562D39571D88A43100BA7C28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		562D395C1D88A43100BA7C28 /* Georgian KeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Georgian KeyboardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		562D39601D88A43100BA7C28 /* Georgian_KeyboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Georgian_KeyboardUITests.swift; sourceTree = "<group>"; };
+		562D39621D88A43100BA7C28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		562D39821D88A4E400BA7C28 /* Keyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Keyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		562D39841D88A4E400BA7C28 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		562D39861D88A4E400BA7C28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		566BD26C1D8DC71B00BB818D /* RealmKeyboardVerticalPositioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmKeyboardVerticalPositioning.swift; sourceTree = "<group>"; };
+		566BD26E1D8DD49A00BB818D /* RealmKeyboardInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmKeyboardInfo.swift; sourceTree = "<group>"; };
+		566BD2701D8DEB4B00BB818D /* KeyboardInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardInfo.swift; sourceTree = "<group>"; };
+		566BD2731D8DF0F100BB818D /* KeyboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardView.swift; sourceTree = "<group>"; };
+		566BD2751D8DF11800BB818D /* KeyboardLanguageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardLanguageView.swift; sourceTree = "<group>"; };
+		566BD2771D8DF13200BB818D /* KeyboardLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardLineView.swift; sourceTree = "<group>"; };
+		566BD2791D8DF15500BB818D /* KeyboardKeyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardKeyView.swift; sourceTree = "<group>"; };
+		566BD27D1D8DFA8600BB818D /* KeyboardState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardState.swift; sourceTree = "<group>"; };
+		566BD2801D8E8CE500BB818D /* RealmDefaultKeyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmDefaultKeyboard.swift; sourceTree = "<group>"; };
+		566BD2821D8EC44D00BB818D /* default_keyboard.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = default_keyboard.geojson; sourceTree = "<group>"; };
+		566E46DB1DCE021D006576D3 /* Expressions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Expressions.swift; sourceTree = "<group>"; };
+		5675DF7F1D8B1995009DFB57 /* RealmKeyboardHorizontalPositioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmKeyboardHorizontalPositioning.swift; sourceTree = "<group>"; };
+		5675DF811D8B19E2009DFB57 /* KeyboardPositioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardPositioning.swift; sourceTree = "<group>"; };
+		5675DF831D8B2AD4009DFB57 /* RealmTransforms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmTransforms.swift; sourceTree = "<group>"; };
+		568C7A4C1EE88C620011993C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		568C7A4D1EE88C620011993C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		568C7A501EE88C620011993C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		568C7A521EE88C620011993C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		568C7A531EE88C620011993C /* Georgian Keyboard.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = "Georgian Keyboard.entitlements"; sourceTree = "<group>"; };
+		568C7A551EE88C620011993C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		569525EB1D948D4F000233E5 /* KeyTouchPool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyTouchPool.swift; sourceTree = "<group>"; };
+		5696AC5A1DCE501800AF81A6 /* Keyboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Keyboard.entitlements; sourceTree = "<group>"; };
+		56D3B1CC1E900B9900E2E5A0 /* KeyboardPopup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardPopup.swift; sourceTree = "<group>"; };
+		56E26F7E1DCBFDD3006861A8 /* KeyboardInputActionPool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardInputActionPool.swift; sourceTree = "<group>"; };
+		56FE99E61E783E05008DC29B /* KeyboardPopupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardPopupView.swift; sourceTree = "<group>"; };
+		6675C41C3944E46E54B3CD7A /* Pods-GK-Keyboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GK-Keyboard.release.xcconfig"; path = "Pods/Target Support Files/Pods-GK-Keyboard/Pods-GK-Keyboard.release.xcconfig"; sourceTree = "<group>"; };
+		85E0C2CA14C0364FC2F4E3C2 /* Pods_GK_Georgian_Keyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GK_Georgian_Keyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F876F0A7F8325FF7F352432 /* Pods_GK_Keyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GK_Keyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A824F9A1BFDF4F3753DBF766 /* Pods-GK-Georgian Keyboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GK-Georgian Keyboard.release.xcconfig"; path = "Pods/Target Support Files/Pods-GK-Georgian Keyboard/Pods-GK-Georgian Keyboard.release.xcconfig"; sourceTree = "<group>"; };
+		C1626233EF9BBF0A805038CC /* Pods-GK-Keyboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GK-Keyboard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GK-Keyboard/Pods-GK-Keyboard.debug.xcconfig"; sourceTree = "<group>"; };
+		DE124D23BC7674164E628821 /* Pods-GK-Georgian Keyboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GK-Georgian Keyboard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GK-Georgian Keyboard/Pods-GK-Georgian Keyboard.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		562D393A1D88A43000BA7C28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47444C3BE418FC828FCE01DF /* Pods_GK_Georgian_Keyboard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		562D394E1D88A43100BA7C28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		562D39591D88A43100BA7C28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		562D397F1D88A4E400BA7C28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35126637F7C6E5D7356947DB /* Pods_GK_Keyboard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		560F779F1D89D341005FB150 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				560F77A51D89D381005FB150 /* App */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		560F77A41D89D37C005FB150 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				560F77CE1D8A0C6B005FB150 /* Keyboard */,
+				560F77C41D89FBEF005FB150 /* Theme */,
+				560F77D71D8A0E83005FB150 /* RealmString.swift */,
+				5675DF831D8B2AD4009DFB57 /* RealmTransforms.swift */,
+			);
+			name = Realm;
+			path = ../Realm;
+			sourceTree = "<group>";
+		};
+		560F77A51D89D381005FB150 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				560F77A41D89D37C005FB150 /* Realm */,
+				56B2719F1DB15A9C00FCE25A /* Actions */,
+				560F77C51D89FBF6005FB150 /* Keyboard */,
+				560F77C31D89FBE8005FB150 /* Theme */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		560F77AE1D89D90D005FB150 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				560F77AF1D89D931005FB150 /* ColorUtilities.swift */,
+				560F77B31D89DB77005FB150 /* FileUtilities.swift */,
+				560F77B11D89DB2C005FB150 /* ImageUtilities.swift */,
+				560F77B51D89DD29005FB150 /* Utilities.swift */,
+			);
+			name = Utilities;
+			path = ../Utilities;
+			sourceTree = "<group>";
+		};
+		560F77C31D89FBE8005FB150 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				560F77A81D89D3A3005FB150 /* Theme.swift */,
+				560F77AA1D89D5AE005FB150 /* ThemeBackground.swift */,
+				560F77BD1D89F139005FB150 /* ThemeKeyColors.swift */,
+				560F77B91D89EC18005FB150 /* ThemeKeyFrame.swift */,
+				560F77B71D89E973005FB150 /* ThemeKeys.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		560F77C41D89FBEF005FB150 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				560F77A01D89D34F005FB150 /* RealmTheme.swift */,
+				560F77AC1D89D679005FB150 /* RealmThemeBackground.swift */,
+				560F77C11D89F44F005FB150 /* RealmThemeKeys.swift */,
+				560F77BF1D89F2B3005FB150 /* RealmThemeKeyColors.swift */,
+				560F77BB1D89EC34005FB150 /* RealmThemeKeyFrame.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		560F77C51D89FBF6005FB150 /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				566BD27F1D8E8CBF00BB818D /* Default */,
+				560F77C61D89FC79005FB150 /* Keyboard.swift */,
+				566BD2701D8DEB4B00BB818D /* KeyboardInfo.swift */,
+				560F77CC1D89FE8A005FB150 /* KeyboardKey.swift */,
+				560F77C81D89FCA6005FB150 /* KeyboardLanguage.swift */,
+				560F77CA1D89FCD9005FB150 /* KeyboardLine.swift */,
+				56D3B1CC1E900B9900E2E5A0 /* KeyboardPopup.swift */,
+				5675DF811D8B19E2009DFB57 /* KeyboardPositioning.swift */,
+			);
+			path = Keyboard;
+			sourceTree = "<group>";
+		};
+		560F77CE1D8A0C6B005FB150 /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				560F77CF1D8A0CB8005FB150 /* RealmKeyboard.swift */,
+				566BD26E1D8DD49A00BB818D /* RealmKeyboardInfo.swift */,
+				560F77D11D8A0CC1005FB150 /* RealmKeyboardLanguage.swift */,
+				560F77D31D8A0CDC005FB150 /* RealmKeyboardLine.swift */,
+				560F77D51D8A0CE8005FB150 /* RealmKeyboardKey.swift */,
+				566BD26C1D8DC71B00BB818D /* RealmKeyboardVerticalPositioning.swift */,
+				5675DF7F1D8B1995009DFB57 /* RealmKeyboardHorizontalPositioning.swift */,
+			);
+			path = Keyboard;
+			sourceTree = "<group>";
+		};
+		562D39341D88A43000BA7C28 = {
+			isa = PBXGroup;
+			children = (
+				562D393F1D88A43100BA7C28 /* Georgian Keyboard */,
+				562D39831D88A4E400BA7C28 /* Keyboard */,
+				562D39541D88A43100BA7C28 /* Georgian KeyboardTests */,
+				562D395F1D88A43100BA7C28 /* Georgian KeyboardUITests */,
+				A8EF8D393D0E44F6FB4F012B /* Frameworks */,
+				562D393E1D88A43100BA7C28 /* Products */,
+				E11972BB4D6726581EFBF7D6 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		562D393E1D88A43100BA7C28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				562D393D1D88A43000BA7C28 /* Georgian Keyboard.app */,
+				562D39511D88A43100BA7C28 /* Georgian KeyboardTests.xctest */,
+				562D395C1D88A43100BA7C28 /* Georgian KeyboardUITests.xctest */,
+				562D39821D88A4E400BA7C28 /* Keyboard.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		562D393F1D88A43100BA7C28 /* Georgian Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				568C7A5B1EE88C6A0011993C /* App */,
+				562D398D1D88AA7200BA7C28 /* Keyboard */,
+				562D394C1D88A43100BA7C28 /* Info.plist */,
+			);
+			path = "Georgian Keyboard";
+			sourceTree = "<group>";
+		};
+		562D39541D88A43100BA7C28 /* Georgian KeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				562D39551D88A43100BA7C28 /* Georgian_KeyboardTests.swift */,
+				562D39571D88A43100BA7C28 /* Info.plist */,
+			);
+			path = "Georgian KeyboardTests";
+			sourceTree = "<group>";
+		};
+		562D395F1D88A43100BA7C28 /* Georgian KeyboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				562D39601D88A43100BA7C28 /* Georgian_KeyboardUITests.swift */,
+				562D39621D88A43100BA7C28 /* Info.plist */,
+			);
+			path = "Georgian KeyboardUITests";
+			sourceTree = "<group>";
+		};
+		562D39831D88A4E400BA7C28 /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				562D39861D88A4E400BA7C28 /* Info.plist */,
+				5696AC5A1DCE501800AF81A6 /* Keyboard.entitlements */,
+				562D39841D88A4E400BA7C28 /* KeyboardViewController.swift */,
+			);
+			path = Keyboard;
+			sourceTree = "<group>";
+		};
+		562D398D1D88AA7200BA7C28 /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				560F77AE1D89D90D005FB150 /* Utilities */,
+				560F779F1D89D341005FB150 /* Models */,
+				566BD2721D8DF0CD00BB818D /* Views */,
+				566E46DB1DCE021D006576D3 /* Expressions.swift */,
+			);
+			path = Keyboard;
+			sourceTree = "<group>";
+		};
+		566BD2721D8DF0CD00BB818D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				566BD2731D8DF0F100BB818D /* KeyboardView.swift */,
+				566BD2751D8DF11800BB818D /* KeyboardLanguageView.swift */,
+				560FD3D41D9549D900D42DC8 /* KeyboardLineStoreView.swift */,
+				566BD2771D8DF13200BB818D /* KeyboardLineView.swift */,
+				566BD2791D8DF15500BB818D /* KeyboardKeyView.swift */,
+				56FE99E61E783E05008DC29B /* KeyboardPopupView.swift */,
+				5607AE221D93F1DD00125411 /* KeyboardKeyDrawing.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		566BD27F1D8E8CBF00BB818D /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				566BD2801D8E8CE500BB818D /* RealmDefaultKeyboard.swift */,
+				566BD2821D8EC44D00BB818D /* default_keyboard.geojson */,
+			);
+			path = Default;
+			sourceTree = "<group>";
+		};
+		568C7A4E1EE88C620011993C /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				568C7A4F1EE88C620011993C /* LaunchScreen.storyboard */,
+				568C7A511EE88C620011993C /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		568C7A541EE88C620011993C /* Themes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Themes;
+			sourceTree = "<group>";
+		};
+		568C7A5B1EE88C6A0011993C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				568C7A4C1EE88C620011993C /* AppDelegate.swift */,
+				568C7A4D1EE88C620011993C /* Assets.xcassets */,
+				568C7A4E1EE88C620011993C /* Base.lproj */,
+				568C7A531EE88C620011993C /* Georgian Keyboard.entitlements */,
+				568C7A541EE88C620011993C /* Themes */,
+				568C7A551EE88C620011993C /* ViewController.swift */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		56B2719F1DB15A9C00FCE25A /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				569525EB1D948D4F000233E5 /* KeyTouchPool.swift */,
+				56E26F7E1DCBFDD3006861A8 /* KeyboardInputActionPool.swift */,
+				566BD27D1D8DFA8600BB818D /* KeyboardState.swift */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		A8EF8D393D0E44F6FB4F012B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85E0C2CA14C0364FC2F4E3C2 /* Pods_GK_Georgian_Keyboard.framework */,
+				9F876F0A7F8325FF7F352432 /* Pods_GK_Keyboard.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E11972BB4D6726581EFBF7D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE124D23BC7674164E628821 /* Pods-GK-Georgian Keyboard.debug.xcconfig */,
+				A824F9A1BFDF4F3753DBF766 /* Pods-GK-Georgian Keyboard.release.xcconfig */,
+				C1626233EF9BBF0A805038CC /* Pods-GK-Keyboard.debug.xcconfig */,
+				6675C41C3944E46E54B3CD7A /* Pods-GK-Keyboard.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		562D393C1D88A43000BA7C28 /* Georgian Keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 562D39651D88A43100BA7C28 /* Build configuration list for PBXNativeTarget "Georgian Keyboard" */;
+			buildPhases = (
+				BC18B2893A915A9C3C1750E0 /* [CP] Check Pods Manifest.lock */,
+				562D39391D88A43000BA7C28 /* Sources */,
+				562D393A1D88A43000BA7C28 /* Frameworks */,
+				562D393B1D88A43000BA7C28 /* Resources */,
+				562D397D1D88A49400BA7C28 /* Embed App Extensions */,
+				E83C08A6E8D5565982FA5C7B /* [CP] Embed Pods Frameworks */,
+				5BCE9925BB485A2D7398BA3C /* [CP] Copy Pods Resources */,
+				561048831D88B527003F4CD5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				562D39881D88A4E400BA7C28 /* PBXTargetDependency */,
+			);
+			name = "Georgian Keyboard";
+			productName = "Georgian Keyboard";
+			productReference = 562D393D1D88A43000BA7C28 /* Georgian Keyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		562D39501D88A43100BA7C28 /* Georgian KeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 562D39681D88A43100BA7C28 /* Build configuration list for PBXNativeTarget "Georgian KeyboardTests" */;
+			buildPhases = (
+				562D394D1D88A43100BA7C28 /* Sources */,
+				562D394E1D88A43100BA7C28 /* Frameworks */,
+				562D394F1D88A43100BA7C28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				562D39531D88A43100BA7C28 /* PBXTargetDependency */,
+			);
+			name = "Georgian KeyboardTests";
+			productName = "Georgian KeyboardTests";
+			productReference = 562D39511D88A43100BA7C28 /* Georgian KeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		562D395B1D88A43100BA7C28 /* Georgian KeyboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 562D396B1D88A43100BA7C28 /* Build configuration list for PBXNativeTarget "Georgian KeyboardUITests" */;
+			buildPhases = (
+				562D39581D88A43100BA7C28 /* Sources */,
+				562D39591D88A43100BA7C28 /* Frameworks */,
+				562D395A1D88A43100BA7C28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				562D395E1D88A43100BA7C28 /* PBXTargetDependency */,
+			);
+			name = "Georgian KeyboardUITests";
+			productName = "Georgian KeyboardUITests";
+			productReference = 562D395C1D88A43100BA7C28 /* Georgian KeyboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		562D39811D88A4E400BA7C28 /* Keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 562D398A1D88A4E400BA7C28 /* Build configuration list for PBXNativeTarget "Keyboard" */;
+			buildPhases = (
+				B2825C80186EC53E1D164EEE /* [CP] Check Pods Manifest.lock */,
+				562D397E1D88A4E400BA7C28 /* Sources */,
+				562D397F1D88A4E400BA7C28 /* Frameworks */,
+				562D39801D88A4E400BA7C28 /* Resources */,
+				3AC88B4E811C8DE159F27F40 /* [CP] Copy Pods Resources */,
+				561048841D88B534003F4CD5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Keyboard;
+			productName = Keyboard;
+			productReference = 562D39821D88A4E400BA7C28 /* Keyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		562D39351D88A43000BA7C28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Giorgi Shavgulidze";
+				TargetAttributes = {
+					562D393C1D88A43000BA7C28 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 62CV7SV593;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					562D39501D88A43100BA7C28 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 62CV7SV593;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 562D393C1D88A43000BA7C28;
+					};
+					562D395B1D88A43100BA7C28 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 62CV7SV593;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 562D393C1D88A43000BA7C28;
+					};
+					562D39811D88A4E400BA7C28 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 62CV7SV593;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 562D39381D88A43000BA7C28 /* Build configuration list for PBXProject "Georgian Keyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 562D39341D88A43000BA7C28;
+			productRefGroup = 562D393E1D88A43100BA7C28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				562D393C1D88A43000BA7C28 /* Georgian Keyboard */,
+				562D39501D88A43100BA7C28 /* Georgian KeyboardTests */,
+				562D395B1D88A43100BA7C28 /* Georgian KeyboardUITests */,
+				562D39811D88A4E400BA7C28 /* Keyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		562D393B1D88A43000BA7C28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				568C7A581EE88C620011993C /* LaunchScreen.storyboard in Resources */,
+				568C7A571EE88C620011993C /* Assets.xcassets in Resources */,
+				566BD2831D8EC44D00BB818D /* default_keyboard.geojson in Resources */,
+				568C7A591EE88C620011993C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		562D394F1D88A43100BA7C28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		562D395A1D88A43100BA7C28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		562D39801D88A4E400BA7C28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				566BD2841D8EC8F600BB818D /* default_keyboard.geojson in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3AC88B4E811C8DE159F27F40 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GK-Keyboard/Pods-GK-Keyboard-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		561048831D88B527003F4CD5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+		561048841D88B534003F4CD5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+		5BCE9925BB485A2D7398BA3C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GK-Georgian Keyboard/Pods-GK-Georgian Keyboard-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2825C80186EC53E1D164EEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BC18B2893A915A9C3C1750E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E83C08A6E8D5565982FA5C7B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GK-Georgian Keyboard/Pods-GK-Georgian Keyboard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		562D39391D88A43000BA7C28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				568C7A561EE88C620011993C /* AppDelegate.swift in Sources */,
+				5675DF841D8B2AD4009DFB57 /* RealmTransforms.swift in Sources */,
+				5675DF801D8B1995009DFB57 /* RealmKeyboardHorizontalPositioning.swift in Sources */,
+				560F77B01D89D931005FB150 /* ColorUtilities.swift in Sources */,
+				560F77AB1D89D5AE005FB150 /* ThemeBackground.swift in Sources */,
+				560F77CD1D89FE8A005FB150 /* KeyboardKey.swift in Sources */,
+				560F77AD1D89D679005FB150 /* RealmThemeBackground.swift in Sources */,
+				566BD26D1D8DC71B00BB818D /* RealmKeyboardVerticalPositioning.swift in Sources */,
+				560FD3D51D9549D900D42DC8 /* KeyboardLineStoreView.swift in Sources */,
+				566BD2711D8DEB4B00BB818D /* KeyboardInfo.swift in Sources */,
+				566BD27E1D8DFA8600BB818D /* KeyboardState.swift in Sources */,
+				560F77C91D89FCA6005FB150 /* KeyboardLanguage.swift in Sources */,
+				5688C2C91E246E860053B0B5 /* KeyboardViewController.swift in Sources */,
+				560F77C01D89F2B3005FB150 /* RealmThemeKeyColors.swift in Sources */,
+				560F77B21D89DB2C005FB150 /* ImageUtilities.swift in Sources */,
+				560F77D01D8A0CB8005FB150 /* RealmKeyboard.swift in Sources */,
+				560F77D21D8A0CC1005FB150 /* RealmKeyboardLanguage.swift in Sources */,
+				560F77B61D89DD29005FB150 /* Utilities.swift in Sources */,
+				56D3B1CD1E900B9900E2E5A0 /* KeyboardPopup.swift in Sources */,
+				566BD2761D8DF11800BB818D /* KeyboardLanguageView.swift in Sources */,
+				560F77CB1D89FCD9005FB150 /* KeyboardLine.swift in Sources */,
+				56E26F7F1DCBFDD3006861A8 /* KeyboardInputActionPool.swift in Sources */,
+				566BD2811D8E8CE500BB818D /* RealmDefaultKeyboard.swift in Sources */,
+				560F77BA1D89EC18005FB150 /* ThemeKeyFrame.swift in Sources */,
+				566BD26F1D8DD49A00BB818D /* RealmKeyboardInfo.swift in Sources */,
+				560F77D41D8A0CDC005FB150 /* RealmKeyboardLine.swift in Sources */,
+				560F77C21D89F44F005FB150 /* RealmThemeKeys.swift in Sources */,
+				560F77BC1D89EC34005FB150 /* RealmThemeKeyFrame.swift in Sources */,
+				560F77B81D89E973005FB150 /* ThemeKeys.swift in Sources */,
+				5607AE231D93F1DD00125411 /* KeyboardKeyDrawing.swift in Sources */,
+				568C7A5A1EE88C620011993C /* ViewController.swift in Sources */,
+				566BD27A1D8DF15500BB818D /* KeyboardKeyView.swift in Sources */,
+				566BD2781D8DF13200BB818D /* KeyboardLineView.swift in Sources */,
+				560F77B41D89DB77005FB150 /* FileUtilities.swift in Sources */,
+				560F77A91D89D3A3005FB150 /* Theme.swift in Sources */,
+				560F77C71D89FC79005FB150 /* Keyboard.swift in Sources */,
+				566BD2741D8DF0F100BB818D /* KeyboardView.swift in Sources */,
+				560F77D81D8A0E83005FB150 /* RealmString.swift in Sources */,
+				560F77D61D8A0CE8005FB150 /* RealmKeyboardKey.swift in Sources */,
+				56FE99E71E783E05008DC29B /* KeyboardPopupView.swift in Sources */,
+				5675DF821D8B19E2009DFB57 /* KeyboardPositioning.swift in Sources */,
+				560F77BE1D89F139005FB150 /* ThemeKeyColors.swift in Sources */,
+				569525EC1D948D4F000233E5 /* KeyTouchPool.swift in Sources */,
+				566E46DC1DCE021D006576D3 /* Expressions.swift in Sources */,
+				560F77A11D89D34F005FB150 /* RealmTheme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		562D394D1D88A43100BA7C28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				562D39561D88A43100BA7C28 /* Georgian_KeyboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		562D39581D88A43100BA7C28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				562D39611D88A43100BA7C28 /* Georgian_KeyboardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		562D397E1D88A4E400BA7C28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				566E46E11DCE08D2006576D3 /* RealmKeyboardInfo.swift in Sources */,
+				566E46E91DCE08D2006576D3 /* RealmThemeKeys.swift in Sources */,
+				566E46DF1DCE08D2006576D3 /* RealmString.swift in Sources */,
+				566E46D71DCDF6F2006576D3 /* KeyboardLanguage.swift in Sources */,
+				566E46E61DCE08D2006576D3 /* RealmKeyboardVerticalPositioning.swift in Sources */,
+				562D39851D88A4E400BA7C28 /* KeyboardViewController.swift in Sources */,
+				56E26F861DCC003D006861A8 /* KeyboardKeyView.swift in Sources */,
+				56E26F801DCBFDD3006861A8 /* KeyboardInputActionPool.swift in Sources */,
+				566E46E81DCE08D2006576D3 /* RealmThemeBackground.swift in Sources */,
+				566E46DD1DCE021D006576D3 /* Expressions.swift in Sources */,
+				566E46EB1DCE08D2006576D3 /* RealmThemeKeyFrame.swift in Sources */,
+				5696AC591DCE2B9300AF81A6 /* RealmDefaultKeyboard.swift in Sources */,
+				56FE99E81E783E05008DC29B /* KeyboardPopupView.swift in Sources */,
+				566E46EA1DCE08D2006576D3 /* RealmThemeKeyColors.swift in Sources */,
+				566E46DA1DCDF6F2006576D3 /* KeyboardPositioning.swift in Sources */,
+				566E46E01DCE08D2006576D3 /* RealmKeyboard.swift in Sources */,
+				566E46EC1DCE08DC006576D3 /* Theme.swift in Sources */,
+				566E46E51DCE08D2006576D3 /* RealmKeyboardHorizontalPositioning.swift in Sources */,
+				56E26F841DCC003D006861A8 /* KeyboardLineStoreView.swift in Sources */,
+				566E46E41DCE08D2006576D3 /* RealmKeyboardKey.swift in Sources */,
+				5696AC581DCE29C200AF81A6 /* FileUtilities.swift in Sources */,
+				566E46ED1DCE08DC006576D3 /* ThemeBackground.swift in Sources */,
+				566E46F31DCE2962006576D3 /* ImageUtilities.swift in Sources */,
+				566E46D91DCDF6F2006576D3 /* KeyboardKey.swift in Sources */,
+				566E46E31DCE08D2006576D3 /* RealmKeyboardLine.swift in Sources */,
+				566E46D41DCDF6F2006576D3 /* KeyboardState.swift in Sources */,
+				56E26F831DCC003D006861A8 /* KeyboardLanguageView.swift in Sources */,
+				566E46DE1DCE08D2006576D3 /* RealmTransforms.swift in Sources */,
+				566E46F11DCE291C006576D3 /* ColorUtilities.swift in Sources */,
+				56E26F851DCC003D006861A8 /* KeyboardLineView.swift in Sources */,
+				56E26F871DCC003D006861A8 /* KeyboardKeyDrawing.swift in Sources */,
+				56E26F821DCC003D006861A8 /* KeyboardView.swift in Sources */,
+				566E46D61DCDF6F2006576D3 /* KeyboardInfo.swift in Sources */,
+				566E46EF1DCE08DC006576D3 /* ThemeKeyColors.swift in Sources */,
+				566E46E71DCE08D2006576D3 /* RealmTheme.swift in Sources */,
+				566E46D81DCDF6F2006576D3 /* KeyboardLine.swift in Sources */,
+				566E46F21DCE2939006576D3 /* Utilities.swift in Sources */,
+				566E46D51DCDF6F2006576D3 /* Keyboard.swift in Sources */,
+				56B271A01DB15AB000FCE25A /* KeyTouchPool.swift in Sources */,
+				566E46EE1DCE08DC006576D3 /* ThemeKeys.swift in Sources */,
+				566E46F01DCE08DC006576D3 /* ThemeKeyFrame.swift in Sources */,
+				56D3B1CE1E900B9900E2E5A0 /* KeyboardPopup.swift in Sources */,
+				566E46E21DCE08D2006576D3 /* RealmKeyboardLanguage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		562D39531D88A43100BA7C28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 562D393C1D88A43000BA7C28 /* Georgian Keyboard */;
+			targetProxy = 562D39521D88A43100BA7C28 /* PBXContainerItemProxy */;
+		};
+		562D395E1D88A43100BA7C28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 562D393C1D88A43000BA7C28 /* Georgian Keyboard */;
+			targetProxy = 562D395D1D88A43100BA7C28 /* PBXContainerItemProxy */;
+		};
+		562D39881D88A4E400BA7C28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 562D39811D88A4E400BA7C28 /* Keyboard */;
+			targetProxy = 562D39871D88A4E400BA7C28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		568C7A4F1EE88C620011993C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				568C7A501EE88C620011993C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		568C7A511EE88C620011993C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				568C7A521EE88C620011993C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		562D39631D88A43100BA7C28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		562D39641D88A43100BA7C28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		562D39661D88A43100BA7C28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE124D23BC7674164E628821 /* Pods-GK-Georgian Keyboard.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Georgian Keyboard/Georgian Keyboard.entitlements";
+				DEVELOPMENT_TEAM = 62CV7SV593;
+				HEADERMAP_USES_VFS = YES;
+				INFOPLIST_FILE = "Georgian Keyboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iShavgula.Georgian-Keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		562D39671D88A43100BA7C28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A824F9A1BFDF4F3753DBF766 /* Pods-GK-Georgian Keyboard.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Georgian Keyboard/Georgian Keyboard.entitlements";
+				DEVELOPMENT_TEAM = 62CV7SV593;
+				HEADERMAP_USES_VFS = YES;
+				INFOPLIST_FILE = "Georgian Keyboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iShavgula.Georgian-Keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		562D39691D88A43100BA7C28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 62CV7SV593;
+				INFOPLIST_FILE = "Georgian KeyboardTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iShavgula.Georgian-KeyboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Georgian Keyboard.app/Georgian Keyboard";
+			};
+			name = Debug;
+		};
+		562D396A1D88A43100BA7C28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 62CV7SV593;
+				INFOPLIST_FILE = "Georgian KeyboardTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iShavgula.Georgian-KeyboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Georgian Keyboard.app/Georgian Keyboard";
+			};
+			name = Release;
+		};
+		562D396C1D88A43100BA7C28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 62CV7SV593;
+				INFOPLIST_FILE = "Georgian KeyboardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iShavgula.Georgian-KeyboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Georgian Keyboard";
+			};
+			name = Debug;
+		};
+		562D396D1D88A43100BA7C28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 62CV7SV593;
+				INFOPLIST_FILE = "Georgian KeyboardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iShavgula.Georgian-KeyboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Georgian Keyboard";
+			};
+			name = Release;
+		};
+		562D398B1D88A4E400BA7C28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1626233EF9BBF0A805038CC /* Pods-GK-Keyboard.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Keyboard/Keyboard.entitlements;
+				DEVELOPMENT_TEAM = 62CV7SV593;
+				HEADERMAP_USES_VFS = YES;
+				INFOPLIST_FILE = Keyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iShavgula.Georgian-Keyboard.Keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		562D398C1D88A4E400BA7C28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6675C41C3944E46E54B3CD7A /* Pods-GK-Keyboard.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Keyboard/Keyboard.entitlements;
+				DEVELOPMENT_TEAM = 62CV7SV593;
+				HEADERMAP_USES_VFS = YES;
+				INFOPLIST_FILE = Keyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iShavgula.Georgian-Keyboard.Keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		562D39381D88A43000BA7C28 /* Build configuration list for PBXProject "Georgian Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				562D39631D88A43100BA7C28 /* Debug */,
+				562D39641D88A43100BA7C28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		562D39651D88A43100BA7C28 /* Build configuration list for PBXNativeTarget "Georgian Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				562D39661D88A43100BA7C28 /* Debug */,
+				562D39671D88A43100BA7C28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		562D39681D88A43100BA7C28 /* Build configuration list for PBXNativeTarget "Georgian KeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				562D39691D88A43100BA7C28 /* Debug */,
+				562D396A1D88A43100BA7C28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		562D396B1D88A43100BA7C28 /* Build configuration list for PBXNativeTarget "Georgian KeyboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				562D396C1D88A43100BA7C28 /* Debug */,
+				562D396D1D88A43100BA7C28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		562D398A1D88A4E400BA7C28 /* Build configuration list for PBXNativeTarget "Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				562D398B1D88A4E400BA7C28 /* Debug */,
+				562D398C1D88A4E400BA7C28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 562D39351D88A43000BA7C28 /* Project object */;
+}
