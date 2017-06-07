@@ -18,4 +18,4 @@ Flexible way to generate iOS custom keyboards with different layouts.
      - Basic popup
      - Popup with input options
    - Add support for different key frame drawings
-   
+   - and much more...
