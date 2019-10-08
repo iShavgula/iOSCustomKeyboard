@@ -1,5 +1,5 @@
 # iOSCustomKeyboard
-Third-party custom keyboard for iOS
+Third-party custom keyboard for iOS (Georgian Layout)
 
 Flexible way to generate iOS custom keyboards with different layouts.
 
